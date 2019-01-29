@@ -26,7 +26,7 @@ namespace MtpApp
             Calculator calculator1 = new Calculator(true);
 
             Calculator calculator2 = new Calculator();
-
+            calculator2.SetAbs(true);
             while (true)
             {
 

@@ -22,6 +22,12 @@ namespace MtpApp.Core
 
         }
 
+        public void SetAbs(bool abs)
+        {
+            _abs = abs;
+        }
+
+
         public void Input(int a)
         {
             if (_abs == true)
