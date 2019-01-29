@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gemmyj\\MTPApp\\MtpApp.Core\\MtpApp.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Gemmyj\\Desktop\\MTPApp\\MtpApp.Core\\MtpApp.Core.csproj",
       "projectName": "MtpApp.Core",
-      "projectPath": "C:\\Users\\Gemmyj\\MTPApp\\MtpApp.Core\\MtpApp.Core.csproj",
+      "projectPath": "C:\\Users\\Gemmyj\\Desktop\\MTPApp\\MtpApp.Core\\MtpApp.Core.csproj",
       "packagesPath": "C:\\Users\\Gemmyj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gemmyj\\MTPApp\\MtpApp.Core\\obj\\",
+      "outputPath": "C:\\Users\\Gemmyj\\Desktop\\MTPApp\\MtpApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
