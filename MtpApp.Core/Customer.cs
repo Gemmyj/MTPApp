@@ -13,5 +13,11 @@ namespace MtpApp.Core
         public string LastName { get; set; }
 
         public string Address { get; set; }
+
+        public virtual void Print()
+        {
+            Console.WriteLine($"Name {FirstName} LastName {LastName}");
+            Console.ReadLine();
+        }
     }
 }

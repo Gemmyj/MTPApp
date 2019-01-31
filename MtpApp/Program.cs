@@ -73,51 +73,60 @@ namespace MtpApp
             //double pi = GemService.PI;
             //Console.WriteLine(pi);
 
-            CustomerService customerservice = new CustomerService();
-            
-            IEnumerable<Customer> customers = customerservice.GetAllCustomers();
+            //CustomerService customerservice = new CustomerService();
 
-            foreach (var item in customers)
-            {
-                Console.WriteLine($"Name:{item.FirstName} LastName :{item.LastName}");
+            //IEnumerable<Customer> customers = customerservice.GetAllCustomers();
 
-            }
-            
-            Customer customer = new Customer();
-            customer.FirstName = "Gem";
-            customer.LastName = "Na";
-            customer.Address = "TH";
-            customer.Id = 0;
-            customerservice.CreateCustomer(customer);
+            //foreach (var item in customers)
+            //{
+            //    Console.WriteLine($"Name:{item.FirstName} LastName :{item.LastName}");
 
-            PrintfCustomer();
-            Customer customer2 = new Customer() { FirstName = "Aun", LastName = "Ja", Id = 0,Address = "TH" };
-            customerservice.CreateCustomer(customer2);
-            PrintfCustomer();
+            //}
 
-            Customer customer4 = new Customer() { FirstName = "Aunnz", LastName = "Jaa", Id = 3, Address = "TH3" };
-            customerservice.UpdateCustomer(customer4);
-            PrintfCustomer();
-            customerservice.DeleteCustomer(4);
-            PrintfCustomer();
-            Customer customer3 = customerservice.FindCustomerById(0);
+            //Customer customer = new Customer();
+            //customer.FirstName = "Gem";
+            //customer.LastName = "Na";
+            //customer.Address = "TH";
+            //customer.Id = 0;
+            //customerservice.CreateCustomer(customer);
+
+            //PrintfCustomer();
+            //Customer customer2 = new Customer() { FirstName = "Aun", LastName = "Ja", Id = 0,Address = "TH" };
+            //customerservice.CreateCustomer(customer2);
+            //PrintfCustomer();
+
+            //Customer customer4 = new Customer() { FirstName = "Aunnz", LastName = "Jaa", Id = 3, Address = "TH3" };
+            //customerservice.UpdateCustomer(customer4);
+            //PrintfCustomer();
+            //customerservice.DeleteCustomer(4);
+            //PrintfCustomer();
+            //Customer customer3 = customerservice.FindCustomerById(0);
 
 
-          
 
-            if (customer3 == null)
-            {
-                Console.WriteLine("No User");
-            }
-            else
-            {
-                Console.WriteLine($"Name : {customer3.FirstName} LastName:{customer3.LastName} ID {customer3.Id}");
-            }
-            
-            //string msg = GemService.GetServiceName();
-            
-            Console.ReadLine();
 
+            //if (customer3 == null)
+            //{
+            //    Console.WriteLine("No User");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"Name : {customer3.FirstName} LastName:{customer3.LastName} ID {customer3.Id}");
+            //}
+
+            ////string msg = GemService.GetServiceName();
+
+            //Console.ReadLine();
+
+            //MtpUser mtpuser = new MtpUser();
+            ////Customer customer = (Customer)mtpuser;
+            //mtpuser.Print();
+            //CustomerService customerService = new CustomerService();
+            //customerService.CreateCustomer(mtpuser);
+            CustomerService customerService = new CustomerService();
+            IPrinter printer = new PrinterNameMenu(customerService);
+            printer.StartUI();
+           
         }
 
         public static void PrintfCustomer()
