@@ -1,0 +1,12 @@
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\bin\Debug\netcoreapp2.1\MtpApp.DataAccess.deps.json
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\bin\Debug\netcoreapp2.1\MtpApp.DataAccess.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.AssemblyInfo.cs
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\bin\Debug\netcoreapp2.1\MtpApp.DataAccess.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\bin\Debug\netcoreapp2.1\MtpApp.Entity.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\bin\Debug\netcoreapp2.1\MtpApp.Entity.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.csproj.CopyComplete
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.DataAccess\obj\Debug\netcoreapp2.1\MtpApp.DataAccess.pdb

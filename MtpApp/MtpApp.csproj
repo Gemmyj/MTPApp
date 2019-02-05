@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MtpApp.Core\MtpApp.Core.csproj" />
+    <ProjectReference Include="..\MtpApp.DataAccess\MtpApp.DataAccess.csproj" />
+    <ProjectReference Include="..\MtpApp.Entity\MtpApp.Entity.csproj" />
   </ItemGroup>
 
 </Project>

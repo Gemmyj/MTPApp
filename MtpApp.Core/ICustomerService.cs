@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using MtpApp.Entity;
+using System.Collections.Generic;
 
 namespace MtpApp.Core
 {

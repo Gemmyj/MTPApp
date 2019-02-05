@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MtpApp.Core
+namespace MtpApp.Entity
 {
     public class Customer
     {
@@ -13,6 +13,8 @@ namespace MtpApp.Core
         public string LastName { get; set; }
 
         public string Address { get; set; }
+
+        public string Telephone { get; set; }
 
         public virtual void Print()
         {

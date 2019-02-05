@@ -1,0 +1,9 @@
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\bin\Debug\netcoreapp2.1\MtpApp.Entity.deps.json
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\bin\Debug\netcoreapp2.1\MtpApp.Entity.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\bin\Debug\netcoreapp2.1\MtpApp.Entity.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.AssemblyInfoInputs.cache
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.AssemblyInfo.cs
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.dll
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.pdb
+C:\Users\Gemmyj\Desktop\MTPApp\MtpApp.Entity\obj\Debug\netcoreapp2.1\MtpApp.Entity.csprojAssemblyReference.cache

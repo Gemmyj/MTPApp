@@ -1,4 +1,5 @@
 ﻿using MtpApp.Core;
+using MtpApp.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,6 +58,12 @@ namespace MtpApp
                     case 4:
                         var idForEdit = PrintFindCustomeryId();
                         var customerToEdit = _customerService.FindCustomerById(idForEdit);
+                        if (customerToEdit == null)
+                        {
+                            Console.WriteLine("Null");
+                            break;
+                        }
+                       
                         Console.WriteLine("Updating " + customerToEdit.FirstName + " " + customerToEdit.LastName);
                         var newFirstName = AskQuestion("Firstname: ");
                         var newLastName = AskQuestion("Lastname: ");
